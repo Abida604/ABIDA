@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Shaik Abida Ashraf - Computer Science (Data Science & AI) Graduate specializing in Python, SQL, Machine Learning, and Software Engineering.">
+    <meta name="author" content="Shaik Abida Ashraf">
+    <meta property="og:title" content="Shaik Abida Ashraf | Personal Portfolio">
+    <meta property="og:description" content="Entry-level Software Engineer specializing in Python, Machine Learning, and Computer Vision solutions.">
+    <meta property="og:type" content="website">
+    <title>Shaik Abida Ashraf | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar-header" id="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo-brand" aria-label="Home">
+                <span class="logo-symbol">&lt;A/&gt;</span>
+                <span class="logo-text">SHAIK ABIDA ASHRAF</span>
+            </a>
+            
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#testimonials" class="nav-link">Recommendations</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav-overlay" id="mobile-menu">
+            <ul class="mobile-nav-list">
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+                <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                <li><a href="#education" class="mobile-nav-link">Education</a></li>
+                <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+                <li><a href="#testimonials" class="mobile-nav-link">Recommendations</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="terminal-badge">
+                        <i data-lucide="terminal"></i>
+                        <span>Software Engineer & AI Enthusiast</span>
+                    </div>
+                    <h1 class="hero-title">Shaik Abida <span class="accent-text">Ashraf</span></h1>
+                    <p class="hero-subtitle">B.Tech in Computer Science (Data Science & AI) Graduate</p>
+                    <p class="hero-description">
+                        Seeking an entry-level software engineering role to apply my skills in Python, SQL, Manual Testing, and Machine Learning to build efficient, real-world software solutions.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary"><i data-lucide="code-2"></i> View Projects</a>
+                        <a href="images/resume.pdf" download class="btn btn-secondary"><i data-lucide="download"></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-outline"><i data-lucide="mail"></i> Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="tech-card">
+                        <div class="card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="card-title">profile_data.py</span>
+                        </div>
+                        <div class="card-body">
+                            <pre><code><span class="code-keyword">class</span> <span class="code-class">Engineer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-str">"Shaik Abida Ashraf"</span>
+        self.location = <span class="code-str">"Kandukur, AP, India"</span>
+        self.degree = <span class="code-str">"B.Tech CS (Data Science & AI)"</span>
+        self.core_skills = [
+            <span class="code-str">"Python"</span>, <span class="code-str">"SQL"</span>, 
+            <span class="code-str">"Manual Testing"</span>, <span class="code-str">"OpenCV"</span>
+        ]
+
+    <span class="code-keyword">def</span> <span class="code-func">get_objective</span>(self):
+        <span class="code-keyword">return</span> <span class="code-str">"Build efficient real-world solutions."</span></code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i data-lucide="user"></i> Professional Summary</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-card">
+                    <div class="about-text">
+                        <p>Seeking an entry-level software engineering role to apply my skills in Python, SQL, Manual Testing, and Machine Learning, and to contribute to building efficient, real-world software solutions. Hands-on experience developing a real-time face recognition attendance system using OpenCV, with a strong foundation in data structures and algorithms. Eager to learn, grow, and take on new technical challenges in a collaborative environment.</p>
+                    </div>
+                    <div class="quick-facts-grid">
+                        <div class="fact-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <span class="fact-label">Location</span>
+                                <span class="fact-value">Kandukur, Andhra Pradesh</span>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <i data-lucide="graduation-cap"></i>
+                            <div>
+                                <span class="fact-label">Education</span>
+                                <span class="fact-value">B.Tech (DS & AI)</span>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <i data-lucide="cpu"></i>
+                            <div>
+                                <span class="fact-label">Focus</span>
+                                <span class="fact-value">Software Eng & ML</span>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <i data-lucide="code"></i>
+                            <div>
+                                <span class="fact-label">DSA Foundation</span>
+                                <span class="fact-value">Data Structures & Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i data-lucide="cpu"></i> Technical Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i data-lucide="terminal"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="chip-container">
+                            <span class="tech-chip">Python</span>
+                            <span class="tech-chip">Java</span>
+                            <span class="tech-chip">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i data-lucide="globe"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <div class="chip-container">
+                            <span class="tech-chip">HTML</span>
+                            <span class="tech-chip">CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i data-lucide="brain"></i>
+                            <h3>Machine Learning & AI</h3>
+                        </div>
+                        <div class="chip-container">
+                            <span class="tech-chip">Supervised Learning</span>
+                            <span class="tech-chip">Model Evaluation</span>
+                            <span class="tech-chip">Neural Networks</span>
+                            <span class="tech-chip">CNN (MNIST)</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i data-lucide="check-square"></i>
+                            <h3>Software Testing</h3>
+                        </div>
+                        <div class="chip-container">
+                            <span class="tech-chip">Manual Testing</span>
+                            <span class="tech-chip">Functional Testing</span>
+                            <span class="tech-chip">Unit Testing</span>
+                            <span class="tech-chip">Regression Testing</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i data-lucide="box"></i>
+                            <h3>Libraries & Tools</h3>
+                        </div>
+                        <div class="chip-container">
+                            <span class="tech-chip">Pandas</span>
+                            <span class="tech-chip">NumPy</span>
+                            <span class="tech-chip">Scikit-learn</span>
+                            <span class="tech-chip">OpenCV</span>
+                            <span class="tech-chip">Matplotlib</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i data-lucide="wrench"></i>
+                            <h3>Development Tools</h3>
+                        </div>
+                        <div class="chip-container">
+                            <span class="tech-chip">Git</span>
+                            <span class="tech-chip">GitHub</span>
+                            <span class="tech-chip">VS Code</span>
+                            <span class="tech-chip">Jupyter Notebook</span>
+                            <span class="tech-chip">Google Colab</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card full-width">
+                        <div class="skill-card-header">
+                            <i data-lucide="layers"></i>
+                            <h3>Core Computer Science</h3>
+                        </div>
+                        <div class="chip-container">
+                            <span class="tech-chip">Data Structures</span>
+                            <span class="tech-chip">Algorithms</span>
+                            <span class="tech-chip">Object-Oriented Programming (OOP)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i data-lucide="folder-git-2"></i> Key Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-type"><i data-lucide="scan-face"></i> Computer Vision / Machine Learning</div>
+                            <h3 class="project-title">AI-Powered Face Recognition Attendance System</h3>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-section">
+                                <h4><i data-lucide="alert-circle"></i> Problem Statement & Goal</h4>
+                                <p>Classroom attendance was manual, time-consuming, and error-prone, so the goal was to automate it using face recognition.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4><i data-lucide="list-checks"></i> Architecture & Execution</h4>
+                                <ul class="project-bullets">
+                                    <li>Designed a Python-based system with OpenCV, building modular components for image acquisition, face detection, and identity matching.</li>
+                                    <li>Implemented real-time face matching against a stored student dataset, handling challenges like lighting variation and partial visibility.</li>
+                                    <li>Significantly reduced manual intervention and improved attendance accuracy, delivering a working real-world ML/computer vision application.</li>
+                                </ul>
+                            </div>
+                            <div class="project-section">
+                                <h4><i data-lucide="code-2"></i> Technologies Used</h4>
+                                <div class="chip-container">
+                                    <span class="tech-chip">Python</span>
+                                    <span class="tech-chip">OpenCV</span>
+                                    <span class="tech-chip">Computer Vision</span>
+                                    <span class="tech-chip">Machine Learning</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i data-lucide="graduation-cap"></i> Education</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- College -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2022 - 2026</span>
+                                <h3>Rise Krishna Sai Gandhi Group of Institutions</h3>
+                                <p class="timeline-sub">Ongole, Andhra Pradesh</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="degree-title">B.Tech - Computer Science (Data Science & AI)</p>
+                                <div class="score-tag">CGPA: 8.0 / 10</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2020 - 2022</span>
+                                <h3>Narayana Junior College</h3>
+                                <p class="timeline-sub">Kandukur, Andhra Pradesh</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="degree-title">Intermediate (MPC)</p>
+                                <div class="score-tag">Percentage: 84.9%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- School -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2019 - 2020</span>
+                                <h3>Narayana E-Techno School</h3>
+                                <p class="timeline-sub">Kandukur, Andhra Pradesh</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="degree-title">SSC</p>
+                                <div class="score-tag">CGPA: 10 / 10</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Internships Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i data-lucide="award"></i> Certifications & Virtual Internships</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i data-lucide="award"></i></div>
+                        <div class="cert-details">
+                            <h3>AI Agents for Everyone & AI Bootcamp using Python</h3>
+                            <p class="cert-issuer">100 Hands-on Labs — Udemy</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i data-lucide="bar-chart-2"></i></div>
+                        <div class="cert-details">
+                            <h3>Visualizing Data with Python</h3>
+                            <p class="cert-issuer">IBM</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i data-lucide="message-square"></i></div>
+                        <div class="cert-details">
+                            <h3>Communication Skills & Email Etiquette</h3>
+                            <p class="cert-issuer">TCS iON</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card full-width-cert">
+                        <div class="cert-icon"><i data-lucide="briefcase"></i></div>
+                        <div class="cert-details">
+                            <h3>AICTE Virtual Internships</h3>
+                            <p class="cert-issuer">AICTE</p>
+                            <div class="chip-container mt-2">
+                                <span class="tech-chip">Google AI/ML</span>
+                                <span class="tech-chip">Google Generative AI</span>
+                                <span class="tech-chip">Celonis Business Analytics</span>
+                                <span class="tech-chip">Ethical Hacking</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Placeholder Section -->
+        <section id="testimonials" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i data-lucide="quote"></i> Professional Recommendations</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="testimonial-carousel-container">
+                    <div class="testimonial-carousel" id="testimonial-carousel">
+                        <div class="testimonial-slide active">
+                            <div class="placeholder-notice">
+                                <i data-lucide="info"></i> Placeholder Component (No external references provided in resume)
+                            </div>
+                            <blockquote class="testimonial-quote">
+                                "Professional recommendations and endorsements from mentors, project leads, or colleagues will be showcased here."
+                            </blockquote>
+                            <div class="testimonial-author">
+                                <strong>Academic Supervisor / Mentor</strong>
+                                <span>Institution Placeholder</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="placeholder-notice">
+                                <i data-lucide="info"></i> Placeholder Component (No external references provided in resume)
+                            </div>
+                            <blockquote class="testimonial-quote">
+                                "Additional professional feedback regarding technical competence and teamwork abilities can be highlighted in this section."
+                            </blockquote>
+                            <div class="testimonial-author">
+                                <strong>Project Evaluator</strong>
+                                <span>Technical Reviewer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-controls">
+                        <button class="carousel-btn" id="prev-testimonial" aria-label="Previous recommendation">
+                            <i data-lucide="chevron-left"></i>
+                        </button>
+                        <div class="carousel-indicators" id="carousel-indicators">
+                            <span class="indicator active" data-index="0"></span>
+                            <span class="indicator" data-index="1"></span>
+                        </div>
+                        <button class="carousel-btn" id="next-testimonial" aria-label="Next recommendation">
+                            <i data-lucide="chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i data-lucide="mail"></i> Get In Touch</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for entry-level opportunities, technical collaborations, or professional inquiries.</p>
+                        
+                        <div class="contact-list">
+                            <a href="mailto:shaikabida604@gmail.com" class="contact-item">
+                                <i data-lucide="mail"></i>
+                                <div>
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-val">shaikabida604@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+918790848604" class="contact-item">
+                                <i data-lucide="phone"></i>
+                                <div>
+                                    <span class="contact-label">Phone</span>
+                                    <span class="contact-val">+91 8790848604</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-item">
+                                <i data-lucide="map-pin"></i>
+                                <div>
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-val">Kandukur, Andhra Pradesh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-links-card">
+                        <h3>Profiles & Links</h3>
+                        <p>Connect with me across these professional platforms:</p>
+                        <div class="profile-links-grid">
+                            <a href="#" class="profile-btn" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="linkedin"></i> LinkedIn
+                            </a>
+                            <a href="#" class="profile-btn" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="github"></i> GitHub
+                            </a>
+                            <a href="#" class="profile-btn" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="code-2"></i> LeetCode
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-symbol">&lt;A/&gt;</span>
+                <span class="logo-text">Shaik Abida Ashraf</span>
+            </div>
+            <p class="footer-copy">
+                &copy; <span id="current-year"></span> Shaik Abida Ashraf. All Rights Reserved.
+            </p>
+            <div class="footer-links">
+                <a href="#hero">Back to top <i data-lucide="arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
